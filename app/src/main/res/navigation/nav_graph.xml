@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/searchResultFragment">
+
+    <fragment
+        android:id="@+id/searchResultFragment"
+        android:name="com.shoykat.forpetpat.SearchResultFragment"
+        android:label="fragment_search_result"
+        tools:layout="@layout/fragment_search_result" />
+    <fragment
+        android:id="@+id/filterFragment"
+        android:name="com.shoykat.forpetpat.FilterFragment"
+        android:label="fragment_filter"
+        tools:layout="@layout/fragment_filter" />
+    <fragment
+        android:id="@+id/filter2Fragment"
+        android:name="com.shoykat.forpetpat.Filter2Fragment"
+        android:label="fragment_filter2"
+        tools:layout="@layout/fragment_filter2" />
+</navigation>
